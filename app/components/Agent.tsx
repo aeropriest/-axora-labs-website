@@ -61,7 +61,7 @@ export default function Agent() {
   return (
     <section id="agent" className="py-24 md:py-32 relative">
       {/* Background Accent */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#00F5FF]/5 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#FF6B00]/5 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Section Header */}
@@ -72,12 +72,12 @@ export default function Agent() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00F5FF]/10 border border-[#00F5FF]/20 mb-6">
-            <Bot className="w-4 h-4 text-[#00F5FF]" />
-            <span className="text-sm text-[#00F5FF]">$AXORA Agent</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FF6B00]/10 border border-[#FF6B00]/20 mb-6">
+            <Bot className="w-4 h-4 text-[#FF6B00]" />
+            <span className="text-sm text-[#FF6B00]">$AXTORA Agent</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            <span className="gradient-text">The Axora Agent</span>
+            <span className="gradient-text">The Axtora Agent</span>
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
             A tokenized AI agent powered by patented conversational technology,
@@ -96,14 +96,14 @@ export default function Agent() {
           >
             <div className="aspect-square max-w-md mx-auto relative">
               {/* Outer Ring */}
-              <div className="absolute inset-0 rounded-full border-2 border-[#00F5FF]/20 animate-spin" style={{ animationDuration: "20s" }} />
-              <div className="absolute inset-4 rounded-full border border-[#00F5FF]/10 animate-spin" style={{ animationDuration: "15s", animationDirection: "reverse" }} />
+              <div className="absolute inset-0 rounded-full border-2 border-[#FF6B00]/20 animate-spin" style={{ animationDuration: "20s" }} />
+              <div className="absolute inset-4 rounded-full border border-[#FF6B00]/10 animate-spin" style={{ animationDuration: "15s", animationDirection: "reverse" }} />
               
               {/* Center Core */}
-              <div className="absolute inset-12 rounded-full bg-gradient-to-br from-[#00F5FF]/20 to-[#00F5FF]/5 flex items-center justify-center glow-effect">
+              <div className="absolute inset-12 rounded-full bg-gradient-to-br from-[#FF6B00]/20 to-[#FF6B00]/5 flex items-center justify-center glow-effect">
                 <div className="text-center">
-                  <Bot className="w-16 h-16 text-[#00F5FF] mx-auto mb-4" />
-                  <p className="text-2xl font-bold text-white">$AXORA</p>
+                  <Bot className="w-16 h-16 text-[#FF6B00] mx-auto mb-4" />
+                  <p className="text-2xl font-bold text-white">$AXTORA</p>
                   <p className="text-sm text-gray-400">Tokenized Agent</p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function Agent() {
                       animationDelay: `${index * 0.5}s`
                     }}
                   >
-                    <cap.icon className="w-6 h-6 text-[#00F5FF]" />
+                    <cap.icon className="w-6 h-6 text-[#FF6B00]" />
                   </motion.div>
                 );
               })}
@@ -153,8 +153,8 @@ export default function Agent() {
                   transition={{ delay: 0.4 + index * 0.1 }}
                   className="flex items-start gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-[#00F5FF]/10 flex items-center justify-center flex-shrink-0">
-                    <cap.icon className="w-5 h-5 text-[#00F5FF]" />
+                  <div className="w-10 h-10 rounded-lg bg-[#FF6B00]/10 flex items-center justify-center flex-shrink-0">
+                    <cap.icon className="w-5 h-5 text-[#FF6B00]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">{cap.title}</h4>
@@ -169,12 +169,12 @@ export default function Agent() {
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.8 }}
-              className="mt-8 p-6 rounded-2xl border-2 border-dashed border-[#00F5FF]/30 text-center"
+              className="mt-8 p-6 rounded-2xl border-2 border-dashed border-[#FF6B00]/30 text-center"
             >
-              <Zap className="w-8 h-8 text-[#00F5FF] mx-auto mb-3" />
+              <Zap className="w-8 h-8 text-[#FF6B00] mx-auto mb-3" />
               <p className="text-white font-medium mb-1">Live Demo Coming Soon</p>
               <p className="text-sm text-gray-500">
-                Experience the Axora Agent in action
+                Experience the Axtora Agent in action
               </p>
             </motion.div>
           </motion.div>
@@ -198,7 +198,7 @@ export default function Agent() {
                 transition={{ delay: 0.6 + index * 0.1 }}
                 className="glass-card rounded-xl p-5"
               >
-                <h4 className="text-[#00F5FF] font-semibold mb-3">
+                <h4 className="text-[#FF6B00] font-semibold mb-3">
                   {useCase.title}
                 </h4>
                 <ul className="space-y-2">
@@ -207,7 +207,7 @@ export default function Agent() {
                       key={item}
                       className="text-sm text-gray-400 flex items-center gap-2"
                     >
-                      <span className="w-1 h-1 bg-[#00F5FF] rounded-full" />
+                      <span className="w-1 h-1 bg-[#FF6B00] rounded-full" />
                       {item}
                     </li>
                   ))}

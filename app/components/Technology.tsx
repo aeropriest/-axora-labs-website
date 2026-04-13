@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import Image from "next/image";
 import {
   Brain,
   Mic,
@@ -134,9 +133,9 @@ export default function Technology() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00F5FF]/10 border border-[#00F5FF]/20 mb-6">
-            <Shield className="w-4 h-4 text-[#00F5FF]" />
-            <span className="text-sm text-[#00F5FF]">Patent No. HK30101316</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FF6B00]/10 border border-[#FF6B00]/20 mb-6">
+            <Shield className="w-4 h-4 text-[#FF6B00]" />
+            <span className="text-sm text-[#FF6B00]">Patent No. HK30101316</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             <span className="gradient-text">Voice-to-Voice Context-Aware AI</span>
@@ -144,7 +143,7 @@ export default function Technology() {
           <p className="text-lg text-gray-400 max-w-3xl mx-auto">
             The world&apos;s first patented context-aware voice AI pipeline. Users speak naturally, 
             the AI retrieves curated context, processes through LLMs, and responds with trained voice personas.
-            <span className="text-[#00F5FF]"> Protected globally. Tokenized on-chain.</span>
+            <span className="text-[#FF6B00]"> Protected globally. Tokenized on-chain.</span>
           </p>
         </motion.div>
 
@@ -167,14 +166,14 @@ export default function Technology() {
                   transition={{ delay: 0.3 + index * 0.1 }}
                   className="glass-card rounded-xl p-4 text-center min-w-[140px]"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-[#00F5FF]/10 flex items-center justify-center mx-auto mb-2">
-                    <step.icon className="w-5 h-5 text-[#00F5FF]" />
+                  <div className="w-10 h-10 rounded-lg bg-[#FF6B00]/10 flex items-center justify-center mx-auto mb-2">
+                    <step.icon className="w-5 h-5 text-[#FF6B00]" />
                   </div>
                   <p className="text-white font-medium text-sm">{step.title}</p>
                   <p className="text-gray-500 text-xs mt-1">{step.description}</p>
                 </motion.div>
                 {index < technologyFlow.length - 1 && (
-                  <div className="hidden md:block text-[#00F5FF] mx-2">→</div>
+                  <div className="hidden md:block text-[#FF6B00] mx-2">→</div>
                 )}
               </div>
             ))}
@@ -192,14 +191,14 @@ export default function Technology() {
           className="glass-card rounded-2xl p-8 mb-12"
         >
           <div className="flex items-center gap-3 mb-6">
-            <TrendingUp className="w-6 h-6 text-[#00F5FF]" />
+            <TrendingUp className="w-6 h-6 text-[#FF6B00]" />
             <h3 className="text-2xl font-bold text-white">
               Massive Market Opportunity
             </h3>
           </div>
           <p className="text-gray-400 mb-8 max-w-3xl">
-            Voice AI is exploding. Every smart toy, companion robot, educational device, and healthcare tool 
-            needs context-aware conversational AI. $AXORA is positioned to capture this multi-billion dollar market 
+            Voice AI is exploding. Every smart toy, companion robot, educational device, and healthcare tool
+            needs context-aware conversational AI. $AXTORA is positioned to capture this multi-billion dollar market
             with patented, proven technology.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -211,7 +210,7 @@ export default function Technology() {
                 transition={{ delay: 0.4 + index * 0.1 }}
                 className="text-center p-4 rounded-xl bg-white/5"
               >
-                <p className="text-3xl md:text-4xl font-bold text-[#00F5FF] mb-1">
+                <p className="text-3xl md:text-4xl font-bold text-[#FF6B00] mb-1">
                   {stat.value}
                 </p>
                 <p className="text-white text-sm font-medium">{stat.label}</p>
@@ -220,9 +219,9 @@ export default function Technology() {
               </motion.div>
             ))}
           </div>
-          <div className="mt-8 p-4 rounded-xl bg-[#00F5FF]/5 border border-[#00F5FF]/20">
+          <div className="mt-8 p-4 rounded-xl bg-[#FF6B00]/5 border border-[#FF6B00]/20">
             <p className="text-center text-sm text-gray-300">
-              <span className="text-[#00F5FF] font-semibold">Combined TAM: $500B+</span> — 
+              <span className="text-[#FF6B00] font-semibold">Combined TAM: $500B+</span> —
               Every device using our AI = token demand. Patent protection = sustainable competitive advantage.
             </p>
           </div>
@@ -238,8 +237,8 @@ export default function Technology() {
               transition={{ duration: 0.6, delay: 0.5 + index * 0.1 }}
               className="glass-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300"
             >
-              <div className="w-12 h-12 rounded-xl bg-[#00F5FF]/10 flex items-center justify-center mb-4">
-                <feature.icon className="w-6 h-6 text-[#00F5FF]" />
+              <div className="w-12 h-12 rounded-xl bg-[#FF6B00]/10 flex items-center justify-center mb-4">
+                <feature.icon className="w-6 h-6 text-[#FF6B00]" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
                 {feature.title}
@@ -276,8 +275,8 @@ export default function Technology() {
 
           <div className="mb-6 p-4 rounded-xl bg-white/5">
             <p className="text-sm text-gray-300">
-              <span className="text-[#00F5FF] font-semibold">Government-Vetted Innovation:</span> The Hong Kong Productivity Council (HKPC) 
-              Patent Application Grant required a positive patent search report confirming NO similar technology exists worldwide. 
+              <span className="text-[#FF6B00] font-semibold">Government-Vetted Innovation:</span> The Hong Kong Productivity Council (HKPC)
+              Patent Application Grant required a positive patent search report confirming NO similar technology exists worldwide.
               This is genuinely innovative — not another AI chatbot clone.
             </p>
           </div>
@@ -288,7 +287,7 @@ export default function Technology() {
                 key={patent.region}
                 className="text-center p-4 rounded-xl bg-white/5"
               >
-                <p className="text-[#00F5FF] font-semibold mb-1">
+                <p className="text-[#FF6B00] font-semibold mb-1">
                   {patent.region}
                 </p>
                 <p
@@ -321,17 +320,19 @@ export default function Technology() {
             Read the Whitepaper
           </h3>
           <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-            Deep dive into the patented voice-to-voice AI technology, market analysis, 
-            token economics, and the roadmap for the $AXORA ecosystem.
+            Deep dive into the patented voice-to-voice AI technology, market analysis,
+            token economics, and the roadmap for the $AXTORA ecosystem.
           </p>
           <a
-            href="#"
-            className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-[#0A1428] bg-[#00F5FF] rounded-full hover:bg-[#00F5FF]/90 transition-all duration-300 glow-effect"
+            href="/whitepaper.md"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-[#1C1C22] bg-[#FF6B00] rounded-full hover:bg-[#FF6B00]/90 transition-all duration-300 glow-effect"
           >
             Download Whitepaper
           </a>
           <p className="mt-4 text-sm text-gray-500">
-            Coming soon — Follow @axoralabsai for announcement
+            Comprehensive technical documentation available now
           </p>
         </motion.div>
       </div>

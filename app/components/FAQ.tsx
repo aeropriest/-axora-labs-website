@@ -7,9 +7,9 @@ import { ChevronDown, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "What is the $AXORA token?",
+    question: "What is the $AXTORA token?",
     answer:
-      "$AXORA is the utility token for the Axora Labs AI agent on Virtuals Protocol. It represents ownership in the patented context-aware voice AI technology and provides access to licensing, governance, and revenue sharing from AI deployments.",
+      "$AXTORA is the utility token for the Axtora Labs AI agent on Virtuals Protocol. It represents ownership in the patented context-aware voice AI technology and provides access to licensing, governance, and revenue sharing from AI deployments.",
   },
   {
     question: "What is the patent number?",
@@ -24,7 +24,7 @@ const faqs = [
   {
     question: "How do I participate in the IAO?",
     answer:
-      "Simply visit the Virtuals Protocol platform on May 18, 2026 and participate in the $AXORA IAO. You'll need a Web3 wallet compatible with Virtuals and $VIRTUAL tokens to participate. No prior registration or whitelist needed.",
+      "Simply visit the Virtuals Protocol platform on May 18, 2026 and participate in the $AXTORA IAO. You'll need a Web3 wallet compatible with Virtuals and $VIRTUAL tokens to participate. No prior registration or whitelist needed.",
   },
   {
     question: "What can the AI technology do?",
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: "Where can I follow updates?",
     answer:
-      "Follow @axoralabsai on all platforms: X (Twitter), Telegram, Discord, Instagram, LinkedIn, and YouTube. Join our social channels for the latest updates, AMAs, and community discussions.",
+      "Follow @axtoralabs on X, Telegram, and Discord for the latest updates, AMAs, launch reminders, and community discussions.",
   },
 ];
 
@@ -64,15 +64,15 @@ export default function FAQ() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00F5FF]/10 border border-[#00F5FF]/20 mb-6">
-            <HelpCircle className="w-4 h-4 text-[#00F5FF]" />
-            <span className="text-sm text-[#00F5FF]">FAQ</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FF6B00]/10 border border-[#FF6B00]/20 mb-6">
+            <HelpCircle className="w-4 h-4 text-[#FF6B00]" />
+            <span className="text-sm text-[#FF6B00]">FAQ</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             <span className="gradient-text">Frequently Asked Questions</span>
           </h2>
           <p className="text-lg text-gray-400">
-            Everything you need to know about $AXORA and the IAO.
+            Everything you need to know about $AXTORA and the IAO.
           </p>
         </motion.div>
 
@@ -94,7 +94,7 @@ export default function FAQ() {
               >
                 <h3 className="text-white font-semibold pr-4">{faq.question}</h3>
                 <ChevronDown
-                  className={`w-5 h-5 text-[#00F5FF] transition-transform duration-300 ${
+                  className={`w-5 h-5 text-[#FF6B00] transition-transform duration-300 ${
                     openIndex === index ? "rotate-180" : ""
                   }`}
                 />
@@ -127,10 +127,10 @@ export default function FAQ() {
             Still have questions?
           </p>
           <a
-            href="https://discord.gg/axoralabsai"
+            href="https://discord.gg/axtoralabs"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-[#00F5FF] text-[#0A1428] font-semibold rounded-full hover:bg-[#00F5FF]/90 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[#FF6B00] text-[#1C1C22] font-semibold rounded-full hover:bg-[#FF6B00]/90 transition-colors"
           >
             Ask in Discord
           </a>

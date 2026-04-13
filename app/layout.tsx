@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Axora Labs | Tokenizing Context-Aware Conversational AI on Virtuals Protocol",
-  description: "Axora Labs is launching its Initial Agent Offering (IAO) on Virtuals Protocol. Own $AXORA - the patented, context-aware conversational AI agent tokenized on-chain. Patent No. HK30101316.",
+  title: "Axtora Labs | Tokenizing Context-Aware Conversational AI on Virtuals Protocol",
+  description: "Axtora Labs is launching its Initial Agent Offering (IAO) on Virtuals Protocol. Own $AXTORA - the patented, context-aware conversational AI agent tokenized on-chain. Patent No. HK30101316.",
   keywords: [
-    "Axora Labs",
-    "AXORA",
-    "$AXORA",
+    "Axtora Labs",
+    "AXTORA",
+    "$AXTORA",
     "IAO",
     "Initial Agent Offering",
     "Virtuals Protocol",
@@ -32,32 +32,32 @@ export const metadata: Metadata = {
     "Context-aware AI",
     "Hong Kong Patent",
   ],
-  authors: [{ name: "Axora Labs", url: "https://axoralabs.ai" }],
-  creator: "Axora Labs",
-  publisher: "Axora Labs",
+  authors: [{ name: "Axtora Labs", url: "https://axtoralabs.com" }],
+  creator: "Axtora Labs",
+  publisher: "Axtora Labs",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://axoralabs.ai",
-    siteName: "Axora Labs",
-    title: "Axora Labs | Tokenizing Context-Aware Conversational AI",
-    description: "Join the $AXORA Initial Agent Offering on Virtuals Protocol. Patented AI technology, tokenized for the future.",
+    url: "https://axtoralabs.com",
+    siteName: "Axtora Labs",
+    title: "Axtora Labs | Tokenizing Context-Aware Conversational AI",
+    description: "Join the $AXTORA Initial Agent Offering on Virtuals Protocol. Patented AI technology, tokenized for the future.",
     images: [
       {
-        url: "/banner.jpg",
+        url: "/banner.png",
         width: 1200,
         height: 630,
-        alt: "Axora Labs - Tokenizing the Future of Conversational AI",
+        alt: "Axtora Labs - Tokenizing the Future of Conversational AI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@axoralabsai",
-    creator: "@axoralabsai",
-    title: "Axora Labs | $AXORA IAO on Virtuals Protocol",
+    site: "@axtoralabs",
+    creator: "@axtoralabs",
+    title: "Axtora Labs | $AXTORA IAO on Virtuals Protocol",
     description: "Patented context-aware conversational AI, now tokenized. Join the IAO.",
-    images: ["/banner.jpg"],
+    images: ["/banner.png"],
   },
   robots: {
     index: true,
@@ -71,7 +71,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
@@ -92,18 +94,15 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Axora Labs",
-              url: "https://axoralabs.ai",
-              logo: "https://axoralabs.ai/logo.png",
+              name: "Axtora Labs",
+              url: "https://axtoralabs.com",
+              logo: "https://axtoralabs.com/logo.png",
               sameAs: [
-                "https://x.com/axoralabsai",
-                "https://t.me/axoralabsai",
-                "https://discord.gg/axoralabsai",
-                "https://linkedin.com/company/axoralabsai",
-                "https://instagram.com/axoralabsai",
-                "https://youtube.com/@axoralabsai",
+                "https://x.com/axtoralabs",
+                "https://t.me/axtoralabs",
+                "https://discord.gg/axtoralabs",
               ],
-              description: "Axora Labs - Tokenizing context-aware conversational AI agents on Virtuals Protocol. Patent No. HK30101316.",
+              description: "Axtora Labs - Tokenizing context-aware conversational AI agents on Virtuals Protocol. Patent No. HK30101316.",
             }),
           }}
         />

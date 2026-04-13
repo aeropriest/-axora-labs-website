@@ -1,10 +1,10 @@
-# Axora Labs - IAO Launch Website
+# Axtora Labs - IAO Launch Website
 
-The official website for Axora Labs' Initial Agent Offering (IAO) on Virtuals Protocol.
+The official website for Axtora Labs' Initial Agent Offering (IAO) on Virtuals Protocol.
 
-## About Axora Labs
+## About Axtora Labs
 
-Axora Labs is revolutionizing conversational AI with patented, context-aware voice-to-voice agent technology. Our AI pipeline enables natural conversations where the system retrieves curated context before responding through LLMs and trained voice personas.
+Axtora Labs is revolutionizing conversational AI with patented, context-aware voice-to-voice agent technology. Our AI pipeline enables natural conversations where the system retrieves curated context before responding through LLMs and trained voice personas.
 
 ### Key Highlights
 
@@ -12,7 +12,7 @@ Axora Labs is revolutionizing conversational AI with patented, context-aware voi
 - **Global IP Portfolio**: Pending applications in USA, India, China, PCT, and upcoming filings in Europe, Japan, Korea
 - **Government-Backed**: 90% funded by Hong Kong Productivity Council Patent Application Grant
 - **Market Opportunity**: $500B+ TAM across conversational AI, EdTech, smart toys, and companion robotics
-- **Tokenized on Virtuals**: $AXORA token launching via IAO on May 18, 2026
+- **Tokenized on Virtuals**: $axtora token launching via IAO on May 18, 2026
 
 ## The Technology
 
@@ -34,7 +34,7 @@ This technology powers:
 
 **Launch Date**: May 18, 2026  
 **Platform**: Virtuals Protocol  
-**Token**: $AXORA
+**Token**: $axtora
 
 The IAO provides fair and open access to all participants — no whitelist required. Join directly on Virtuals Protocol at launch.
 
@@ -77,8 +77,8 @@ This marketing website includes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/aeropriest/-axora-labs-website.git
-cd -axora-labs-website
+git clone https://github.com/aeropriest/axtoralabs.git
+cd axtoralabs
 
 # Install dependencies
 pnpm install
@@ -124,12 +124,9 @@ public/                 # Static assets (logo, banner)
 ## Social Media
 
 Follow us for updates:
-- **X (Twitter)**: [@axoralabsai](https://x.com/axoralabsai)
-- **Telegram**: [@axoralabsai](https://t.me/axoralabsai)
-- **Discord**: [axoralabsai](https://discord.gg/axoralabsai)
-- **Instagram**: [@axoralabsai](https://instagram.com/axoralabsai)
-- **LinkedIn**: [axoralabsai](https://linkedin.com/company/axoralabsai)
-- **YouTube**: [@axoralabsai](https://youtube.com/@axoralabsai)
+- **X (Twitter)**: [@axtoralabsai](https://x.com/axtoralabsai)
+- **Telegram**: [@axtoralabsai](https://t.me/axtoralabsai)
+- **Discord**: [axtoralabsai](https://discord.gg/axtoralabsai)
 
 ## License
 

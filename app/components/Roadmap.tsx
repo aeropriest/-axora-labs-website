@@ -13,7 +13,7 @@ const roadmapItems = [
     status: "current",
     items: [
       "Initial Agent Offering on Virtuals Protocol",
-      "$AXORA token deployment",
+      "$AXTORA token deployment",
       "Community building & social growth",
       "First 10,000 followers milestone",
     ],
@@ -83,7 +83,7 @@ export default function Roadmap() {
         {/* Roadmap Timeline */}
         <div className="relative">
           {/* Vertical Line (Desktop) */}
-          <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-[#00F5FF]/50 via-[#00F5FF]/20 to-transparent" />
+          <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-[#FF6B00]/50 via-[#FF6B00]/20 to-transparent" />
 
           <div className="space-y-12 md:space-y-0">
             {roadmapItems.map((item, index) => (
@@ -105,7 +105,7 @@ export default function Roadmap() {
                   <div
                     className={`glass-card rounded-2xl p-6 ${
                       item.status === "current"
-                        ? "border-[#00F5FF]/30"
+                        ? "border-[#FF6B00]/30"
                         : ""
                     }`}
                   >
@@ -117,14 +117,14 @@ export default function Roadmap() {
                       <div
                         className={`w-10 h-10 rounded-xl flex items-center justify-center ${
                           item.status === "current"
-                            ? "bg-[#00F5FF] text-[#0A1428]"
-                            : "bg-[#00F5FF]/10 text-[#00F5FF]"
+                            ? "bg-[#FF6B00] text-[#1C1C22]"
+                            : "bg-[#FF6B00]/10 text-[#FF6B00]"
                         }`}
                       >
                         <item.icon className="w-5 h-5" />
                       </div>
                       <div>
-                        <p className="text-[#00F5FF] text-sm font-medium">
+                        <p className="text-[#FF6B00] text-sm font-medium">
                           {item.quarter}
                         </p>
                         <h3 className="text-xl font-bold text-white">
@@ -147,7 +147,7 @@ export default function Roadmap() {
                           <CheckCircle
                             className={`w-4 h-4 flex-shrink-0 ${
                               item.status === "current"
-                                ? "text-[#00F5FF]"
+                                ? "text-[#FF6B00]"
                                 : "text-gray-600"
                             }`}
                           />
@@ -156,8 +156,8 @@ export default function Roadmap() {
                       ))}
                     </ul>
                     {item.status === "current" && (
-                      <div className="mt-4 inline-block px-3 py-1 bg-[#00F5FF]/20 rounded-full">
-                        <span className="text-xs text-[#00F5FF] font-medium">
+                      <div className="mt-4 inline-block px-3 py-1 bg-[#FF6B00]/20 rounded-full">
+                        <span className="text-xs text-[#FF6B00] font-medium">
                           Current Phase
                         </span>
                       </div>
@@ -166,9 +166,9 @@ export default function Roadmap() {
                 </div>
 
                 {/* Center Node (Desktop) */}
-                <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#0A1428] border-2 border-[#00F5FF] z-10">
+                <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#1C1C22] border-2 border-[#FF6B00] z-10">
                   {item.status === "current" && (
-                    <div className="absolute inset-0 rounded-full bg-[#00F5FF] animate-ping opacity-50" />
+                    <div className="absolute inset-0 rounded-full bg-[#FF6B00] animate-ping opacity-50" />
                   )}
                 </div>
 
@@ -191,7 +191,7 @@ export default function Roadmap() {
               &ldquo;Own the voice of the future.&rdquo;
             </p>
             <p className="text-gray-400">
-              $AXORA isn&apos;t just another AI token. It&apos;s patented, proven,
+              $AXTORA isn&apos;t just another AI token. It&apos;s patented, proven,
               government-backed technology ready to power the next generation of
               conversational devices worldwide.
             </p>
