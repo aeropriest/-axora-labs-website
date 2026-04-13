@@ -1,37 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Axora Labs - IAO Launch Website
+
+The official website for Axora Labs' Initial Agent Offering (IAO) on Virtuals Protocol.
+
+## About Axora Labs
+
+Axora Labs is revolutionizing conversational AI with patented, context-aware voice-to-voice agent technology. Our AI pipeline enables natural conversations where the system retrieves curated context before responding through LLMs and trained voice personas.
+
+### Key Highlights
+
+- **Patented Technology**: Hong Kong Patent No. HK30101316 (granted May 10, 2024)
+- **Global IP Portfolio**: Pending applications in USA, India, China, PCT, and upcoming filings in Europe, Japan, Korea
+- **Government-Backed**: 90% funded by Hong Kong Productivity Council Patent Application Grant
+- **Market Opportunity**: $500B+ TAM across conversational AI, EdTech, smart toys, and companion robotics
+- **Tokenized on Virtuals**: $AXORA token launching via IAO on May 18, 2026
+
+## The Technology
+
+Our patented voice-to-voice AI pipeline:
+1. **Voice 2 Text** - Natural speech recognition captures user intent
+2. **Context Search** - Intelligent retrieval from parent/admin-curated database
+3. **Context Database** - Safe, appropriate knowledge base controlled by administrators
+4. **Large Language Model** - AI processes context + query for response
+5. **Text 2 Voice** - Natural voice synthesis with trained personas
+
+This technology powers:
+- Interactive educational devices
+- Smart toys with conversational AI
+- Companion robots
+- Healthcare tools
+- Enterprise solutions
+
+## Initial Agent Offering (IAO)
+
+**Launch Date**: May 18, 2026  
+**Platform**: Virtuals Protocol  
+**Token**: $AXORA
+
+The IAO provides fair and open access to all participants — no whitelist required. Join directly on Virtuals Protocol at launch.
+
+### Token Utility
+
+- Access to AI agent licensing
+- Governance participation
+- Revenue sharing from deployments
+- Priority access to new features
+
+## Website Features
+
+This marketing website includes:
+- Hero section with animated branding
+- Technology deep-dive with patent information
+- Agent capabilities and use cases
+- IAO countdown and participation details
+- Roadmap through 2027
+- FAQ section
+- Community hub with social media integration
+- Viral sharing features
+
+## Tech Stack
+
+- **Framework**: Next.js 15+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Vercel (recommended)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ 
+- pnpm (recommended), npm, yarn, or bun
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/aeropriest/-axora-labs-website.git
+cd -axora-labs-website
+
+# Install dependencies
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Run the development server
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-## Learn More
+### Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm build
+pnpm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+app/
+├── components/          # React components
+│   ├── Navbar.tsx      # Navigation bar
+│   ├── Hero.tsx        # Hero section
+│   ├── Technology.tsx  # Technology & patents
+│   ├── Agent.tsx       # Agent capabilities
+│   ├── IAO.tsx         # IAO section
+│   ├── Roadmap.tsx     # Timeline
+│   ├── FAQ.tsx         # FAQ section
+│   ├── Community.tsx   # Social & community
+│   ├── Footer.tsx      # Footer
+│   └── SocialIcons.tsx # Social media icons
+├── globals.css         # Global styles
+├── layout.tsx          # Root layout with SEO
+└── page.tsx            # Main page
+public/                 # Static assets (logo, banner)
+```
 
-## Deploy on Vercel
+## Social Media
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow us for updates:
+- **X (Twitter)**: [@axoralabsai](https://x.com/axoralabsai)
+- **Telegram**: [@axoralabsai](https://t.me/axoralabsai)
+- **Discord**: [axoralabsai](https://discord.gg/axoralabsai)
+- **Instagram**: [@axoralabsai](https://instagram.com/axoralabsai)
+- **LinkedIn**: [axoralabsai](https://linkedin.com/company/axoralabsai)
+- **YouTube**: [@axoralabsai](https://youtube.com/@axoralabsai)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# -axora-labs-website
+## License
+
+This project is open source. See LICENSE file for details.
+
+## Contributing
+
+We welcome contributions! Please feel free to submit a Pull Request.
+
+## Support
+
+For questions or support, join our Discord server or reach out on social media.
+
+---
+
+**Built with ❤️ for the future of conversational AI**
