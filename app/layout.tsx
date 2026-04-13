@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://axtoralabs.com"),
   title: "Axtora Labs | Tokenizing Context-Aware Conversational AI on Virtuals Protocol",
   description: "Axtora Labs is launching its Initial Agent Offering (IAO) on Virtuals Protocol. Own $AXTORA - the patented, context-aware conversational AI agent tokenized on-chain. Patent No. HK30101316.",
   keywords: [
@@ -71,9 +72,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: [{ url: "/logo.png", type: "image/png", sizes: "512x512" }],
+    shortcut: [{ url: "/logo.png", type: "image/png" }],
+    apple: [{ url: "/logo.png", sizes: "512x512", type: "image/png" }],
   },
 };
 
